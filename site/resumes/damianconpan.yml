@@ -1,0 +1,89 @@
+
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Damián
+    last_name: Ramírez
+    motto: Full Stack Developer
+    avatar: 
+    summary: |
+              I am really passionate about music, literature, history and philosophy, 
+              but looking to get out of my comfort zone I decided to study programming, 
+              and I think it turned out better than I expected.
+    # Sidebar links
+    email: damian.ramirez@ug.uchile.cl
+    phone: +56978622574
+    linkedin: https://www.linkedin.com/in/dami%C3%A1n-ram%C3%ADrez/
+    github: damianconpan
+ 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Latín
+        level: Basic
+
+    interests:
+      - item: Playing guitar
+
+      - item: read books
+
+      - item: cycling
+
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2024 - 2025
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap, JavaScript, React JS, Python, Flask, MySQL Alchemy and more.
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: Trade Marketing || Business Development
+      time: 2024
+      company: Konecta
+      details: |
+         I worked as a electronic sales executive oriented to the business segment, 
+         offering WOM telephone plans to small, medium and large companies.
+         My responsibilities included prospecting clients, presenting personalized solutions, 
+         managing quotes and closing sales. This role allowed me to develop skills in customer service, 
+         electronic sales, negotiation and management of business relationships in an environment 
+         of high demand and goal achievement.
+projects:
+    intro: >
+     Here you can find my best project done in 4Geeks Academy fullstack Bootcamp.
+    assignments:
+      - title:  MatchTattoo
+        link: "#https://github.com/Milechan/proyecto-tattoo"
+        tagline: "MatchTattoo es una plataforma web full-stack que conecta tatuadores con clientes a través de publicaciones
+                  segmentadas por categorías. Permite a los artistas exhibir su portafolio y a los usuarios filtrar, contactar y
+                  seleccionar al tatuador ideal según sus preferencias. Fue desarrollada con JavaScript, React, Python, SQL,
+                  HTML/CSS, Bootstrap y AWS (S3, Lambda con Boto3), integrando servicios como SendGrid y SweetAlert2."
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 80%
+
+      - name: React
+        level: 70%
+      
+      - name: Python/Flask
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
